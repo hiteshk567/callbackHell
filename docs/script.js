@@ -22,6 +22,7 @@ setTimeout(() => {
                   setTimeout(function () {
                     display.innerHTML = a--;
                     setTimeout(function () {
+                      display.className += " last";
                       display.innerHTML = "HAPPY NEW YEAR";
                     }, 1000);
                   }, 1000);
